@@ -1,0 +1,193 @@
+body {
+  position: relative;
+}
+
+.ubuntu {
+  font-family: "Ubuntu", sans-serif;
+}
+
+#cabecera {
+  background: url("../img/wallpaper.jpg") no-repeat fixed center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+#presentacion {
+  background: linear-gradient(to bottom, rgba(5, 99, 187, 0.75) 0%, rgba(5, 99, 187, 0.75) 100%), url("../img/pueblo.jpg") no-repeat bottom;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+#datos {
+  background: linear-gradient(to bottom, #393d42 0%, #212121 100%);
+  background-size: cover;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+#formacion {
+  background: #ffffff;
+  background-size: cover;
+  min-height: 50vh;
+  padding-bottom: 40px;
+  padding-top: 60px;
+}
+
+#portfolio {
+  background: #0563bb;
+  background-size: cover;
+  padding-bottom: 40px;
+  padding-bottom: 40px;
+  padding-top: 60px;
+}
+
+#habilidades {
+  background: linear-gradient(to bottom, #393d42 0%, #212121 100%);
+  background-size: cover;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+#reconocimientos {
+  background: #ffffff;
+  background-size: cover;
+  margin-bottom: 80px;
+  padding-top: 60px;
+}
+
+#footer {
+  background: url("../img/footer.jpg") no-repeat bottom;
+  color: #45505b;
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+footer {
+  display: block;
+}
+
+.bi {
+  font-family: "boxicons" !important;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  display: inline-block;
+  text-transform: none;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fixed-top.scrolled {
+  background-color: #e9e8e6 !important;
+  transition: background-color 200ms ease;
+  color: #0c63e4 !important;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.fixed-top {
+  transition: background-color 200ms ease;
+}
+
+.section-title-primary {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #45505b;
+}
+
+.section-title-primary::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-title-primary::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #0563bb;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-title-secondary {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #45505b;
+}
+
+.section-title-secondary::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-title-secondary::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #393d42;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.list {
+  list-style: none;
+}
+
+.section-subtitle-primary {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #45505b;
+}
+
+.project {
+  margin-top: 10px;
+  text-align: start;
+}
+
+ul.navbar-nav .nav-item:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0;
+  transition: width 0.5s ease, background-color 0.5s ease;
+}
+
+.navbar-nav .nav-item:hover:after {
+  width: 100%;
+  background: #0563bb;
+}
+
+/*# sourceMappingURL=styles.css.map */
