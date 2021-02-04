@@ -1,5 +1,9 @@
+html, body {
+  overflow-x: hidden;
+}
+
 body {
-  position: relative;
+  display: block;
 }
 
 .ubuntu {
@@ -21,38 +25,37 @@ body {
 #datos {
   background: linear-gradient(to bottom, #393d42 0%, #212121 100%);
   background-size: cover;
-  padding-bottom: 60px;
-  padding-top: 60px;
+  padding-bottom: 70px;
+  padding-top: 70x;
 }
 
 #formacion {
   background: #ffffff;
   background-size: cover;
   min-height: 50vh;
-  padding-bottom: 40px;
-  padding-top: 60px;
+  padding-bottom: 70px;
+  padding-top: 70px;
 }
 
 #portfolio {
   background: #0563bb;
   background-size: cover;
-  padding-bottom: 40px;
-  padding-bottom: 40px;
-  padding-top: 60px;
+  padding-bottom: 70px;
+  padding-top: 70px;
 }
 
 #habilidades {
   background: linear-gradient(to bottom, #393d42 0%, #212121 100%);
   background-size: cover;
-  padding-bottom: 60px;
-  padding-top: 60px;
+  padding-bottom: 70px;
+  padding-top: 70px;
 }
 
 #reconocimientos {
   background: #ffffff;
   background-size: cover;
   margin-bottom: 80px;
-  padding-top: 60px;
+  padding-top: 70px;
 }
 
 #footer {
@@ -95,7 +98,6 @@ footer {
 .section-title-primary {
   text-align: center;
   padding-top: 30px;
-  font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -128,7 +130,6 @@ footer {
 .section-title-secondary {
   text-align: center;
   padding-top: 30px;
-  font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -165,7 +166,6 @@ footer {
 .section-subtitle-primary {
   text-align: center;
   padding-top: 30px;
-  font-size: 20px;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
@@ -177,17 +177,17 @@ footer {
   text-align: start;
 }
 
-ul.navbar-nav .nav-item:after {
-  content: "";
-  display: block;
-  height: 3px;
-  width: 0;
-  transition: width 0.5s ease, background-color 0.5s ease;
+.nav-item:hover::after {
+  width: 100%;
 }
 
-.navbar-nav .nav-item:hover:after {
-  width: 100%;
+.nav-item::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
   background: #0563bb;
+  transition: 0.2s;
 }
 
 /*# sourceMappingURL=styles.css.map */
